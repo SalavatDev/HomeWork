@@ -6,5 +6,5 @@
 my_list = [1, -45, 2.789, 'Hello world!', [], None, True, 'o', 0, (), {}, 777]
 
 for elem in my_list:
- print(type(elem), end=' ')
+    print(type(elem), end=' ')
 
