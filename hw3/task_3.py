@@ -6,5 +6,6 @@ def my_func(var1, var2, var3):
     return var1 + var2 + var3 - min(var1, var2, var3)
 
 
-print(my_func(4, 2, 3))
+var1, var2, var3 = tuple(input('Enter three numbers separated by a space: ').strip().split())
+print(my_func(int(var1), int(var2), int(var3)))
 
