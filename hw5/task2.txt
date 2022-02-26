@@ -1,5 +1,0 @@
-I'm learning python
-Я знаю несколько языков: английский, русский, татарский
-I work as an electronics engineer
-My name is Salavat
-Я учусь на Data scientist
