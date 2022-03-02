@@ -16,10 +16,10 @@ class Road:
         self.weight = 25
         self.height = 0.005
 
-    def road_mass(self):
-        mass = self._length * self._width * 25 * self.height
+    def road_mass(self, weight=0, height=0):
+        mass = self._length * self._width * weight * height / 1000
         print(f'Масса асфальта, необходимого для покрытия всей дороги = {int(mass)} т.')
 
 
 road_weight = Road(5000, 20)
-road_weight.road_mass()
+road_weight.road_mass(25, 5)
